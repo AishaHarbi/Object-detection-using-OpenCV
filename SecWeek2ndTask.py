@@ -18,8 +18,7 @@ while True:
        # print(roi_gray)
         roi_color = img[y:y+h, x:x+w] # y : y + h from to
         #region of interest (where your face is!)
-        print(x, y, w, h)
-       # print(roi_color)
+        
         #Detects objects of different sizes in the input image. The detected objects are returned as a list of rectangles.
         eyes = eyes_cascade.detectMultiScale(roi_gray)
         for (ex, ey, eh, ew) in eyes:
