@@ -1,4 +1,4 @@
-# smartMethods2ndWeek2ndTask
+
 # Object detection for face and eyes using OpenCV library. 
 
 ### A python code that uses Haar Feature-based Cascade Classifiers, in OpenCV library.
